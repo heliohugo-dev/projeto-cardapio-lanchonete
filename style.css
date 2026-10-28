@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background-color: #636B2F
+}
+.header {
+    background-color: #BAC095;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitulo {
+    color:#636B2F;
+    font-size: 20px;
+    background-color: #BAC095;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #191a19;
+    margin: auto;
+    padding: 10px;
+}
+
+.lanches, .bebidas, .contato {
+    text-decoration: none;
+    color: #BAC095;
+    font-size: 15px;
+    margin: 30px;
+}
+
+h2 {
+    color: #BAC095;
+    text-align: left;
+    margin: 15px;
+}
+
+.cardapio {
+    color: #BAC095;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.lancheum {
+    color: #191a19;
+    border-radius: 10px;
+    background-color: #dfd3c5;
+    margin: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bloco-contato {
+    background-color: #dfd3c5;
+    color: #191a19;
+    max-width: 500px;
+    margin: 20px auto 40px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bloco-contato h2 {
+    color: #3D4127;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bloco-contato p {
+    margin: 6px 0;
+}
